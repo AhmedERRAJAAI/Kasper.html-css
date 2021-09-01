@@ -510,6 +510,29 @@ header nav .form i{
     padding: 10px 20px;
     border: none;
 }
+@media (max-width:768px){
+    .vedio .text{
+        height: 50%;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .vedio .text h2{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .vedio .text button{
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 3px 7px;
+        border: none;
+        margin-top: -20px;
+    }
+    .vedio .text p{
+        margin: 0 0 10px;
+    }
+}
 /* end video */
 /* start about */
 .about{
